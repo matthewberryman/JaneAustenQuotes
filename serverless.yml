@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: midsomerplots # NOTE: update this with your service name
+service: austenquotebot # NOTE: update this with your service name
 
 
 # You can pin your service to only deploy with a specific Serverless version
@@ -28,5 +28,5 @@ functions:
   bot:
     handler: bot.tweet
     events:
-      - schedule: rate(4 hours)
+      - schedule: rate(6 hours)
     memorySize: 128

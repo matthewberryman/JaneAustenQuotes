@@ -12,8 +12,8 @@ var client = new Twitter({
 
 const pngopt = {
   font: '14px Futura',
-  textColor: 'teal',
-  bgColor: 'linen',
+  textColor: 'darkgray',
+  bgColor: 'tan',
   lineSpacing: 8,
   xpadding: 25,
   ypadding: 25
