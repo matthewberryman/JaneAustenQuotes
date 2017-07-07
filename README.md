@@ -1,5 +1,5 @@
 # midsomerplot
-Midsomer Murder Plot Generator Twitter bot
+Jane Austen quotes Twitter bot
 
 # Install
 ## Requirements
