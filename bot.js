@@ -46,7 +46,7 @@ module.exports.tweet = (event, context, callback) => {
 
   var text = generator.generate();
 
-  if text.length <= 140 {
+  if (text.length <= 140) {
     client.post('statuses/update', {status: text}, function(error, tweet, response) {
       if (!error) {
         console.log(tweet);
