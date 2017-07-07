@@ -32,7 +32,7 @@ module.exports.generate = () => {
     "I am gratified by her having pleasure in what I write, but I wish the knowledge of my being exposed to her discerning criticism may not hurt my style, by inducing too great a solicitude. I begin already to weigh my words and sentences more than I did, and am looking about for a sentiment, an illustration, or a metaphor in every corner of the room. Could my ideas flow as fast as the rain in the store-closet it would be charming.",
     "I am sorry to tell you that I am getting very extravagant, and spending all my money, and, what is worse for ''you'', I have been spending yours too.",
     "I give you joy of our new nephew, and hope if he ever comes to be hanged it will not be till we are too old to care about it.",
-    "My head-dress was a bugle-band like the border to my gown, and a flower of Mrs Tilson’s. I depended upon hearing something of the evening from Mr. W. K., and am very well satisfied with his notice of me — "A pleasing looking young woman" — that must do; one cannot pretend to anything better now; thankful to have it continued a few years longer!",
+    "My head-dress was a bugle-band like the border to my gown, and a flower of Mrs Tilson’s. I depended upon hearing something of the evening from Mr. W. K., and am very well satisfied with his notice of me — \"A pleasing looking young woman\" — that must do; one cannot pretend to anything better now; thankful to have it continued a few years longer!",
     "How horrible it is to have so many people killed! And what a blessing that one cares for none of them!",
     "I will not say that your mulberry-trees are dead, but I am afraid they are not alive.",
     "Mr. Digweed has used us basely. Handsome is as handsome does; he is therefore a very ill-looking man.",
@@ -40,7 +40,7 @@ module.exports.generate = () => {
     "He seems a very harmless sort of young man, nothing to like or dislike in him — goes out shooting or hunting with the two others all the morning, and plays at whist and makes queer faces in the evening.",
     "By the bye, as I must leave off being young, I find many ''douceurs'' in being a sort of ''chaperon'', for I am put on the sofa near the fire and can drink as much wine as I like.",
     "I cannot help hoping that ''many'' will feel themselves obliged to buy it. I shall not mind imagining it a disagreeable duty to them, so as they do it.",
-    "Devereux Forester's being ruined by his vanity is extremely good, but I wish you would not let him plunge into a "vortex of dissipation." I do not object to the thing, but I cannot bear the expression; it is such thorough novel slang, and so old that I daresay Adam met with it in the first novel he opened.",
+    "Devereux Forester's being ruined by his vanity is extremely good, but I wish you would not let him plunge into a \"vortex of dissipation.\" I do not object to the thing, but I cannot bear the expression; it is such thorough novel slang, and so old that I daresay Adam met with it in the first novel he opened.",
     "Walter Scott has no business to write novels, especially good ones. It is not fair. He has fame and profit enough as a poet, and should not be taking the bread out of other people's mouths. I do not like him, and do not mean to like ''Waverley'' if I can help it, but fear I must.",
     "The Webbs are really gone! When I saw the waggons at the door, and thought of all the trouble they must have in moving, I began to reproach myself for not having liked them better, but since the waggons have disappeared my conscience has been closed again, and I am excessively glad they are gone.",
     "There are such beings in the world — perhaps one in a thousand — as the creature you and I should think perfection; where grace and spirit are united to worth, where the manners are equal to the heart and understanding; but such a person may not come in your way, or, if he does, he may not be the eldest son of a man of fortune, the near relation of your particular friend, and belonging to your own county.",
@@ -95,6 +95,7 @@ module.exports.generate = () => {
     "It would be mortifying to the feelings of many ladies, could they be made to understand how little the heart of man is affected by what is costly or new in their attire.",
     "A very short trial convinced her that a curricle was the prettiest equipage in the world",
     "The person, be it gentleman or lady, who has not pleasure in a good novel must be intolerably stupid",
-  ],
-  return quotes[Math.floor(Math.random() * quotes.length];
+  ];
+
+  return quotes[Math.floor(Math.random() * quotes.length)];
 };
