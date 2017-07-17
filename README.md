@@ -1,5 +1,5 @@
-# midsomerplot
-Jane Austen quotes Twitter bot
+# JaneAustenQuotes
+Jane Austen quotes [Twitter bot](https://twitter.com/AustenQuoteBot)
 
 # Install
 ## Requirements
