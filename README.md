@@ -1,6 +1,9 @@
 # JaneAustenQuotes
 Jane Austen quotes [Twitter bot](https://twitter.com/AustenQuoteBot)
 
+[Travis CI](https://travis-ci.org/matthewberryman/JaneAustenQuotes): [![Build Status](https://travis-ci.org/matthewberryman/JaneAustenQuotes.svg?branch=master)](https://travis-ci.org/matthewberryman/JaneAustenQuotes)
+
+
 # Install
 ## Requirements
 * [node.js](https://nodejs.org/en/).
