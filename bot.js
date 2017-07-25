@@ -15,8 +15,7 @@ const pngopt = {
   textColor: 'black',
   bgColor: 'wheat',
   lineSpacing: 8,
-  xpadding: 25,
-  ypadding: 25
+  padding: 25
 };
 
 
