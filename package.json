@@ -1,21 +1,21 @@
 {
-  "name": "midsomermurderplots",
+  "name": "JaneAustenQuotes",
   "version": "1.0.0",
   "license": "GPL-3.0",
-  "description": "Midsomer Murder Plot generator",
+  "description": "Jane Austen quote bot",
   "main": "bot.js",
   "scripts": {
     "deploy": "serverless deploy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matthewberryman/midsomerplots.git"
+    "url": "git+https://github.com/matthewberryman/JaneAustenQuotes.git"
   },
   "author": "Matthew Berryman",
   "bugs": {
-    "url": "https://github.com/matthewberryman/midsomerplots/issues"
+    "url": "https://github.com/matthewberryman/JaneAustenQuotes/issues"
   },
-  "homepage": "https://github.com/matthewberryman/midsomerplots",
+  "homepage": "https://github.com/matthewberryman/JaneAustenQuotes",
   "dependencies": {
     "text2png": "git://github.com/matthewberryman/text2png",
     "twitter": "^1.7.1"
