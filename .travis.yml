@@ -1,9 +1,6 @@
 language: node_js
 node_js: '6.10'
-addons:
-  apt:
-    packages:
-    - libgif-dev
+
 env:
   global:
   - secure: wh5r8/cxo0ktmH6LUExLjiqGQCzTjUZ4NTtyoJsarsjeS6RwfXrza9sUm7XgDE2qTEw6B87FP/E0HyoMeMF6n4AEu7wQ5DaSmi4SBY6N9diUk4CzoCe0faMLhb166GhejFEnDo46Kdf99NLVLdY9XbPPfxTfEeGrjD4xMlbF8vznxM31jXYMrwdGRnbDqNZAeG6zh06131pfdR0dXnRj4/JvTsa5hmeFVj6Z5JknF+K8stJFebW3gDkDjeXNKn7LB9VyaGb7nR414C4hrfXWd5fY6zL/UPspHzl4yq1AZsWfm5kS7WNGgjRUnem0Lm9QumccFZEDYYsRBXTw29PHvzkwbJt000qr8ALLXhxHLXJgYka8eeyzNiinehyhnLEXomGOXvmCpkdKZSy0iglECK+1X1JnzET+HPQZih0chOPvOxPrEatKi2SH/ql/VOCfVskV3dmUecGeYJv3uxaO2vn7YNgG2f0Ab+QGUWu4uBUOc16ezMqgDtR8dX+oNW0WI07exZdvposDCl+EcgnN8zsImPeJqfgDWpi2xIruNuDsDUpXRMkZAyH95d9MCYAKek6Hdvz14LSlsUYfPlI8X4x3lBq2n/85GBwwP/D0zaDyA23fbLWNVce0wPSHEYmWGv6SF/7VvL62TV3+d7LwcIvPFEloa1Ufh6QtaEb5wqY=
@@ -11,6 +8,6 @@ env:
 
 before_install: npm install -g serverless
 
-install: npm install
+install: node docker-npm.js install
 
 script: npm test && serverless deploy
