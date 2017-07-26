@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/matthewberryman/JaneAustenQuotes",
   "dependencies": {
-    "twitter": "^1.7.1"
+    "twitter": "^1.7.1",
+    "text2png": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "^3.4.2",
