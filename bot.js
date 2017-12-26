@@ -20,8 +20,8 @@ const pngopt = {
 
 
 var truncate = function(string) {
-   if (string.length > 140)
-      return string.substring(0,string.lastIndexOf(' ',137))+'...';
+   if (string.length > 280)
+      return string.substring(0,string.lastIndexOf(' ',277))+'...';
    else
       return string;
 };
@@ -45,7 +45,7 @@ module.exports.tweet = (event, context, callback) => {
 
   var text = generator.generate();
 
-  if (text.length <= 140) {
+  if (text.length <= 280) {
     client.post('statuses/update', {status: text}, function(error, tweet, response) {
       if (!error) {
         console.log(tweet);
