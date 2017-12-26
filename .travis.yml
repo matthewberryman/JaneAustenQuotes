@@ -10,4 +10,4 @@ before_install: npm install -g serverless
 
 install: node docker-npm.js install
 
-script: npm test && serverless deploy
+script: npm test && serverless deploy --aws-s3-accelerate
