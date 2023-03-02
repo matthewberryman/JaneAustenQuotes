@@ -22,7 +22,7 @@
     "text2png": "^2.1.0"
   },
   "devDependencies": {
-    "mocha": "^6.0.2",
+    "mocha": "^6.2.3",
     "chai": "^4.2.0"
   }
 }
