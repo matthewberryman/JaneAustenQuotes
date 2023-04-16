@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "GPL-3.0",
   "description": "Jane Austen quote bot",
-  "main": "bot.js",
+  "main": "generator.js",
   "scripts": {
     "test": "mocha",
     "deploy": "serverless deploy"
@@ -17,12 +17,8 @@
     "url": "https://github.com/matthewberryman/JaneAustenQuotes/issues"
   },
   "homepage": "https://github.com/matthewberryman/JaneAustenQuotes",
-  "dependencies": {
-    "twitter": "^1.7.1",
-    "text2png": "^2.1.0"
-  },
   "devDependencies": {
-    "mocha": "^6.0.2",
-    "chai": "^4.2.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }

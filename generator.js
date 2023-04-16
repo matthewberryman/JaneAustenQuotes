@@ -1,5 +1,5 @@
 
-module.exports.generate = () => {
+module.exports.generate = (seed) => {
   var quotes = [
     "Here I am once more in this scene of dissipation and vice, and I begin already to find my morals corrupted.",
     "What dreadful hot weather we have! It keeps one in a continual state of inelegance.",
